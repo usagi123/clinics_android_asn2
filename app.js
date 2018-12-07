@@ -48,7 +48,6 @@ router.put('/clinics/:id', function(req, res){
 		{_id: req.params.id}, 
 		{
 			name: req.body.name, 
-			address: req.body.address,
 			rating: req.body.rating,
 			latitute: req.body.latitute,
 			longitute: req.body.longitute,
